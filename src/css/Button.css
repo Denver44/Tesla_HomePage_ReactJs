@@ -1,0 +1,54 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 180px;
+  margin: 8px;
+  text-transform: uppercase;
+  background-color: rgba(23, 26, 32, 0.8);
+  cursor: pointer;
+  border-radius: 100px;
+  opacity: 0.95;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+.button > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.button__white {
+  background-color: white;
+  opacity: 0.65;
+}
+
+.button__white > a {
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .button > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 8px;
+    font-weight: 500;
+  }
+
+  .button__white {
+    background-color: white;
+    opacity: 0.65;
+  }
+
+  .button__white > a {
+    color: black;
+    font-size: 8px;
+    font-weight: 500;
+  }
+}
