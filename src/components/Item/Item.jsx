@@ -1,7 +1,7 @@
 import React from "react";
-import "../css/Item.css";
+import "./Item.css";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import Button from "../component/Button";
+import Button from "../Button/Button";
 
 function Item({
   title,
