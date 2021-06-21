@@ -1,6 +1,6 @@
-import "./App.css";
-import Header from "./component/Header.jsx";
-import Item from "./component/Item.jsx";
+import "./styles/App.css";
+import Header from "./components/Header/Header";
+import Item from "./components/Item/Item";
 
 import Accessories from "./assets/Desktop-Accessories.jpg";
 import ModelS from "./assets/Desktop-ModelS.jpeg";

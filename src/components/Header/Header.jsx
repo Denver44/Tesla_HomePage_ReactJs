@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../css/Header.css";
-import TeslaLogo from "../assets/teslaLogoSmall.svg";
+import "./Header.css";
+import TeslaLogo from "../../assets/teslaLogoSmall.svg";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 
